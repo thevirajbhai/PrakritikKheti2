@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
+    <link rel="stylesheet" href="styles/home-style.css">
+    <script src="scripts/home-script.js" defer></script>
 </head>
 <body>
-    i am a home page
+    <div id="big_images_holder_wrapper">
+        <div id="big_images_holder">
+            <a href="https://www.youtube.com/watch?v=n-HZyOuAMGo" target="_blank"><img src="images/thumbnails/img9.avif" alt="img1"></a>
+            <a href=""><img src="images/thumbnails/img2.webp" alt="img2"></a>
+            <a href=""><img src="images/thumbnails/img3.webp" alt="img3"></a>
+            <a href=""><img src="images/thumbnails/img4.jpeg" alt="img4"></a>
+            <a href=""><img src="images/thumbnails/img5.jpeg" alt="img5"></a>
+            <a href=""><img src="images/thumbnails/img6.jpg" alt="img6"></a>
+            <a href=""><img src="images/thumbnails/img7.webp" alt="img7"></a>
+          
+            <button id="go_to_left_button">&lt;</button>
+            <button id="go_to_right_button">&gt;</button>
+        </div>
+    </div>
+
+    <div id="small_images_holder">
+        <img class="selected" src="images/thumbnails/img9.avif" alt="img1"></a>
+        <img src="images/thumbnails/img2.webp" alt="img2">
+        <img src="images/thumbnails/img3.webp" alt="img3">
+        <img src="images/thumbnails/img4.jpeg" alt="img4">
+        <img src="images/thumbnails/img5.jpeg" alt="img5">
+        <img src="images/thumbnails/img6.jpg" alt="img6">
+        <img src="images/thumbnails/img7.webp" alt="img7">
+    </div>
+
+    <div id="products_section">
+        <header>
+            <h2>farming products</h2>
+            <a href="#">view all</a>
+        </header>
+        <div id="products_holder">
+            <div id="item1">
+                <img src="images/products/p1.jpg" alt="product 1">
+                <div class="details">
+                    <p>1.5kg 100% pure desi cow gobar </p>
+                    <p>gir cow</p>
+                    <p>comming soon</p>
+                    <span id="discount">-2%</span><span id="final_price">₹1500</span>
+                    <p id="MRP">M.R.P: <del>₹1531</del></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
